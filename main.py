@@ -7,7 +7,7 @@ DB_PATH = "people.db"
 class GestionEtudiant(tk.Tk):
     def __init__(self):
         super().__init__()
-        self.title("Gestion Etudiants")
+        self.title("Gestionnaire de Stock")
         self.geometry("700x500")
         self.selected_id = None
         self.selected_id = None
